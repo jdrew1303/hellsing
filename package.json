@@ -1,0 +1,31 @@
+{
+  "name": "hellsing",
+  "version": "1.0.0",
+  "description": "memory leak hunter",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "script/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pagarme/hellsing.git"
+  },
+  "keywords": [
+    "gc",
+    "memory",
+    "leak",
+    "hunter"
+  ],
+  "author": "Jonathan Lima <jonathan@pagar.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pagarme/hellsing/issues"
+  },
+  "homepage": "https://github.com/pagarme/hellsing",
+  "dependencies": {
+    "gc-profiler": "^1.2.0",
+    "heapdump": "^0.3.7",
+    "human-size": "^1.1.0",
+    "memwatch-next": "^0.2.9"
+  }
+}
